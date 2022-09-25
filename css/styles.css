@@ -1,3 +1,67 @@
-body {
-  font-family: rob;
+:root {
+  --text-color: #757575;
+  --tittle-text-color: #212121;
+  --alt-text-color: #2196f3;
+  --background-color: #f5f5f5;
+  --alt-background-color: #f5f4fa;
 }
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+.list {
+  list-style: none;
+}
+.link {
+}
+
+/* **Header** */
+
+.logo {
+  color: #000000;
+  font-weight: 700;
+}
+.logo-alt {
+  color: var(--alt-text-color);
+}
+.head-navigation .link {
+  color: var(--tittle-text-color);
+}
+.head-contacts .link {
+  color: var(--text-color);
+}
+.head .link:focus,
+.head .link:hover {
+  color: var(--alt-text-color);
+}
+
+/* ** Main ** */
+.section-title,
+.title {
+  color: var(--tittle-text-color);
+}
+
+/* HERO */
+
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: #ffffff;
+  font-weight: 900;
+}
+.hero-button {
+  color: #ffffff;
+  background: var(--alt-text-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+/* .hero-button:focus,
+.hero-button:hover {
+  color: var(--tittle-text-color);
+  background: var(--alt-background-color);
+} */
+
+/* Features */
+
+/* ** Footer ** */
