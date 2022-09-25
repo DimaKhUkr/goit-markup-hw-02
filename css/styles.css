@@ -2,8 +2,9 @@
   --text-color: #757575;
   --tittle-text-color: #212121;
   --alt-text-color: #2196f3;
-  --background-color: #f5f5f5;
+  --background-color: #ffffff;
   --alt-background-color: #f5f4fa;
+  --dark-background-color: #2f303a;
 }
 body {
   background-color: var(--background-color);
@@ -44,7 +45,7 @@ body {
 /* HERO */
 
 .hero {
-  background-color: #2f303a;
+  background-color: var(--dark-background-color);
 }
 .hero-title {
   color: #ffffff;
@@ -64,4 +65,36 @@ body {
 
 /* Features */
 
+/* Team */
+.team {
+  background-color: var(--alt-background-color);
+}
+
+/* ** Portfolio Main ** */
+
+.examples-button {
+  color: var(--tittle-text-color);
+  background: var(--alt-background-color);
+  border-radius: 4px;
+  border: none;
+}
+.examples-button:hover,
+.examples-button:focus {
+  color: var(--background-color);
+  background: var(--alt-text-color);
+}
+
 /* ** Footer ** */
+.down {
+  background-color: var(--dark-background-color);
+}
+.down .logo {
+  color: #ffffff;
+}
+.address-links .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+.address-links .link:hover,
+.address-links .link:focus {
+  color: #ffffff;
+}
